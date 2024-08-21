@@ -20,6 +20,7 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+                primary: 'rgb(171, 239, 95)',
               }
             }
           }
@@ -35,7 +36,53 @@
 <body class="font-manrope">
     <!-- header section -->
      <header>
-
+        <nav class="w-11/12 mx-auto">
+            <div class="navbar">
+                <div class="navbar-start">
+                  <div class="flex items-center">
+                      <i class="fa-solid fa-arrow-right-long bg-[#ABEF5F] -rotate-45 rounded-full py-3 px-3"></i>
+                      <a class="font-black text-5xl py-5 px-1" href="#">Rinterio</a>
+                  </div>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 text-lg font-medium">
+                    <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>Home</a></li>
+                    <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>Services</a></li>
+                    <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>Portfolio</a></li>
+                    <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>Blogs</a></li>
+                    <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <div class="">
+                    <button class="space-x-4 text-lg">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                  </div>
+                  <div class="py-4 px-4">
+                    <button>
+                        <a class="btn hover:bg-[#ABEF5F] bg-[#ABEF5F] text-xl font-extrabold text-[#1C1C1C] rounded rounded-full">Book Consult
+                          <i class="fa-solid fa-circle-arrow-right -rotate-45 rounded-full py-3 px-3 h-7"></i>
+                        </a>
+                    </button>
+                  </div>
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <ul tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-lg font-medium right-0 gap-2">
+                      <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>Home</a></li>
+                    <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>Services</a></li>
+                    <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>Portfolio</a></li>
+                    <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>Blogs</a></li>
+                    <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>Contact Us</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        </nav>
      </header>
      <!-- main section -->
       <main>
@@ -43,7 +90,7 @@
       </main>
       <!-- footer section -->
        <footer>
-        
+
        </footer>
 </body>
 </html>
